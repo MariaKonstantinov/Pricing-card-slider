@@ -1,0 +1,14 @@
+.sub {
+  background: linear-gradient(
+    135deg,
+    rgba(163, 168, 240, 1) 0%,
+    rgba(105, 111, 221, 1) 100%
+  );
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 1.6rem;
+  width: 3.3rem;
+  border-radius: 1.6rem;
+  padding: 0.3rem;
+}

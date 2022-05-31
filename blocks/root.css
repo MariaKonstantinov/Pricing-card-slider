@@ -1,9 +1,6 @@
 .root {
-  max-width: 1280px;
   font-family: "Montserrat Alternates", sans-serif;
-  font-size: 15px;
-  width: 80%;
-  color: purple;
+  width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
@@ -11,4 +8,5 @@
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
+  background: linear-gradient(to top right, #ccccff 0%, #ffffff 100%);
 }

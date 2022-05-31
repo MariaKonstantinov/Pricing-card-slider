@@ -1,8 +1,12 @@
 .header {
-    color: hsl(233, 13%, 49%);
-    margin: 3.3rem 0;
-    font-display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  color: hsl(233, 13%, 49%);
+  margin: 3.3rem 0;
+  font-display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 2.5rem;
 }

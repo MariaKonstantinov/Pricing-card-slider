@@ -1,12 +1,24 @@
-/*Normalize & Fonts*/
+/*normalize & fonts*/
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter/inter.css);
 
-/*Block - Root*/
+/*block - root*/
 @import url(../blocks/root.css);
 
-/*Block - Header*/
+/*block - header*/
 @import url(../blocks/header.css);
 
-/*Block - Content*/
-@import url(../blocks/content.css);
+/*block - toggle*/
+@import url(../blocks/toggle.css);
+
+/*block - checkbox*/
+@import url(../blocks/checkbox.css);
+
+/*block - sub*/
+@import url(../blocks/sub.css);
+
+/*block - circle*/
+@import url(../blocks/circle.css);
+
+/*block - cards*/
+@import url(../blocks/cards.css);
