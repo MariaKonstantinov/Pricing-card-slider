@@ -1,8 +1,11 @@
 .cards {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  column-gap: 1rem;
+  overflow: hidden;
 }
 
 .card {
@@ -11,7 +14,7 @@
   border-radius: 0.8rem;
 }
 
-.cards .card.active {
+.card.active {
   background: linear-gradient(
     135deg,
     rgba(163, 168, 240, 1) 0%,
@@ -23,36 +26,56 @@
 }
 
 .pack__list {
-    margin: 2.6rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  margin: 2.6rem;
+  padding-left: 0;
+}
+
+.pack {
+  font-weight: bold;
 }
 
 li {
-    list-style-type: none;
-    font-display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 1rem 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
 }
 
 li.price {
-    font-size: 3rem;
-    color: hsl(232, 13%, 33%);
-    padding-bottom: 2rem;
-    font-weight: bold;
+  font-size: 3rem;
+  color: hsl(232, 13%, 33%);
+  padding-bottom: 2rem;
+  font-weight: bold;
 }
 
 .shadow {
-    box-shadow: -5px 5px 15px 1px rgb(0, 0, 0, 0.1);
+  box-shadow: -5px 5px 15px 1px rgb(0, 0, 0, 0.1);
 }
 
 .card.active .price {
-    color: #fff;
+  color: #fff;
 }
 
-.button {
-    margin-top: 1rem;
+.btn {
+  height: 2.6rem;
+  width: 13.3rem;
+  align-items: center;
+  border-radius: 4px;
+  background: linear-gradient(
+    135deg,
+    rgba(163, 168, 240, 1) 0%,
+    rgba(105, 111, 221, 1) 100%
+  );
+  color: #fff;
+  outline: none;
+  border: 0;
+  font-weight: bold;
+}
+
+/* media queries for cards */
+@media screen and (max-width: 920px) {
+  .cards {
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
 }

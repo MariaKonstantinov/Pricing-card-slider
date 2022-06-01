@@ -1,6 +1,5 @@
-/*normalize & fonts*/
+/*normalize css*/
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/inter/inter.css);
 
 /*block - root*/
 @import url(../blocks/root.css);
@@ -22,3 +21,4 @@
 
 /*block - cards*/
 @import url(../blocks/cards.css);
+
