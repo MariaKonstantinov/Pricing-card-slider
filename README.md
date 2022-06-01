@@ -1,15 +1,12 @@
-# Project 3: Pricing card slider
+# Project: Responsive pricing cards
 ### Overview  
-* Project Description  
+
 * Project Technologies
 * Project Link  
-  
-**Project Description**    
-  
-
+ 
 **Project Technologies** 
 
-HTML5, CSS, flat BEM, Flexbox, Grid Layout, JavaScript.
+HTML5, CSS3, flat BEM, Flexbox.
   
 **Project Link** 
 
