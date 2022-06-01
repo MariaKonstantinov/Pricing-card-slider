@@ -72,6 +72,33 @@ li.price {
   font-weight: bold;
 }
 
+.active-btn {
+  background: #fff;
+  color: hsl(237, 63%, 64%);
+}
+
+.bottom-bar {
+  border-bottom: 2px solid hsl(240, 8%, 85%, 0.583);
+}
+
+.pack {
+  font-size: 1.2rem;
+}
+
+.sub-length {
+  font-weight: bold;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 /* media queries for cards */
 @media screen and (max-width: 920px) {
   .cards {

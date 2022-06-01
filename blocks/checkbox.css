@@ -1,7 +1,7 @@
 .checkbox {
-    display: none;
+  display: none;
 }
 
 .checkbox:checked + .sub {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
