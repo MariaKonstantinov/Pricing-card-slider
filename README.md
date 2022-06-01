@@ -13,7 +13,7 @@ HTML5, CSS, flat BEM, Flexbox, Grid Layout, JavaScript.
   
 **Project Link** 
 
-* [Link to the project]
+* [Click here to view this project](https://mariakonstantinov.github.io/Pricing-card-slider/)
 
   
  
